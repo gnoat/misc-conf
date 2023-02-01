@@ -3,7 +3,7 @@ success_symbol = "🌵"
 error_symbol = "[🚨🚨🚨](blink)"
 
 [cmd_duration]
-min_time = 5_000  # Show command duration over 10,000 milliseconds (=10 sec)
+min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
 format = " took [$duration]($style)"
 
 [directory]
@@ -12,7 +12,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 
 [git_branch]
 format = " [$symbol$branch]($style) "
-symbol = "🍣 "
+symbol = "📖 "
 style = "bold yellow"
 
 [git_commit]
