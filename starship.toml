@@ -1,5 +1,5 @@
 [character]
-success_symbol = "🌵"
+success_symbol = "🌵 "
 error_symbol = "[🚨🚨🚨](blink)"
 
 [cmd_duration]
@@ -67,5 +67,5 @@ style = "bold green"
 
 [username]
 style_user = "bold blue"
-format = '[shane](bold underline 204)[:::](bold white)[$user](bold 68) [->](bold white) '
+format = '[\[](white)[shane s](bold 197)[](bold white)[:::](white)[$user](bold 38)[\]](white)[ ->](blink bold 14) '
 show_always = true
